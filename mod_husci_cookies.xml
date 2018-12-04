@@ -2,7 +2,6 @@
 /**
  * @copyright	Copyright © 2018 - All rights reserved.
  * @license		GNU General Public License v2.0
- * @generator	http://xdsoft/joomla-module-generator/
  */
 -->
 <extension type="module" method="upgrade" client="site">
@@ -13,7 +12,7 @@
 	<authorUrl>http://www.annica.it</authorUrl>
 	<copyright>Copyright © 2018 - All rights reserved.</copyright>
 	<license>GNU General Public License v2.0</license>
-	<version>0.1.5</version>
+	<version>1.1.6</version>
 	<description>MOD_HUSCI_COOKIES_DESCRIPTION</description>
 	<files>
 		<filename module="mod_husci_cookies">mod_husci_cookies.php</filename>
