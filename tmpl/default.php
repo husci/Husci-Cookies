@@ -1,4 +1,8 @@
 <?php
+/**
+ * @copyright	Copyright © 2018 - All rights reserved.
+ * @license		GNU General Public License v2.0
+ */
 defined('_JEXEC') or die;
 ?>
 <?php if ($params->get('GA_enable',1)): ?>
