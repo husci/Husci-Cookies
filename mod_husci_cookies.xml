@@ -109,4 +109,7 @@
 		<language tag="it-IT">it-IT/it-IT.mod_husci_cookies.sys.ini</language>
 		<language tag="it-IT">it-IT/it-IT.mod_husci_cookies.ini</language>
 	</languages>
+	<updateservers>
+	<server type="extension" name="Helloworld" priority="1">https://raw.githubusercontent.com/husci/Husci-Cookies/master/husci_cookies_update.xml</server>
+</updateservers>
 </extension>
