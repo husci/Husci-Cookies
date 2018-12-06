@@ -110,6 +110,6 @@
 		<language tag="it-IT">it-IT/it-IT.mod_husci_cookies.ini</language>
 	</languages>
 	<updateservers>
-	<server type="extension" name="MOD_HUSCI_COOKIES" priority="1">https://raw.githubusercontent.com/husci/Husci-Cookies/master/husci_cookies_update.xml</server>
+	<server type="extension" name="Husci Cookies" priority="1">https://raw.githubusercontent.com/husci/Husci-Cookies/master/husci_cookies_update.xml</server>
 </updateservers>
 </extension>
