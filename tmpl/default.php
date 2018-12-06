@@ -12,7 +12,7 @@ defined('_JEXEC') or die;
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', '<?php echo $params->get('google_analytics_code'); ?>', 'auto');
+  ga('create', '<?php echo $params->get('google_an_cod'); ?>', 'auto');
   ga('send', 'pageview');
 
 </script>
