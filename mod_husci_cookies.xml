@@ -12,7 +12,7 @@
 	<authorUrl>http://www.annica.it</authorUrl>
 	<copyright>Copyright © 2018 - All rights reserved.</copyright>
 	<license>GNU General Public License v2.0</license>
-	<version>1.1.6</version>
+	<version>1.1.8</version>
 	<description>MOD_HUSCI_COOKIES_DESCRIPTION</description>
 	<files>
 		<filename module="mod_husci_cookies">mod_husci_cookies.php</filename>
@@ -66,15 +66,20 @@
 			</fieldset>
 			<fieldset name="setting" label="MOD_SETTING" description="MOD_SETTING_FIELDSET_DESCRIPTION">
 				<field type="text" label="MOD_POPUP_TITLE" name="popup_title" description="MOD_POPUP_TITLE_DESCRIPTION" default="GDPR COOKIE POLICY" class="" size="30" maxlength="30" filter="" />
-				<field type="editor" label="MOD_POPUP_DESC" name="popup_desc" description="MOD_POPUP_DESC_DESCRIPTION" default="Per poter gestire al meglio la tua navigazione su questo sito verranno temporaneamente memorizzate alcune informazioni in piccoli file di testo denominati cookie.È molto importante che tu sia informato e che accetti la politica sulla privacy e sui cookie di questo sito Web. Per ulteriori informazioni, leggi la nostra politica sulla privacy e sui cookie." 
+				<field type="editor" label="MOD_POPUP_DESC" name="popup_desc" description="MOD_POPUP_DESC_DESCRIPTION" default="In order to better manage your browsing on this site, some information will be temporarily stored in small text files called cookies. It is very important that you are informed and accept the privacy and cookie policy of this website. For more information, read our privacy and cookies policy.
+				
+				Per poter gestire al meglio la tua navigazione su questo sito verranno temporaneamente memorizzate alcune informazioni in piccoli file di testo denominati cookie.È molto importante che tu sia informato e che accetti la politica sulla privacy e sui cookie di questo sito Web. Per ulteriori informazioni, leggi la nostra politica sulla privacy e sui cookie." 
 				width="30%" filter="safehtml" />
 				<field type="text" label="MOD_TITLE_FONT_SIZE" name="title_font_size" description="MOD_TITLE_FONT_SIZE_DESCRIPTION" default="18px" class="" size="5" maxlength="5" filter="" />
 				<field type="text" label="MOD_DESC_FONT_SIZE" name="desc_font_size" description="MOD_DESC_FONT_SIZE_DESCRIPTION" default="11px" class="" size="5" maxlength="5" filter="" />
-				<field type="text" label="MOD_BUTTON_TEXT" name="button_text" description="MOD_BUTTON_TEXT_DESCRIPTION" default="OK, HO CAPITO E ACCETTO" class="" size="30" maxlength="30" filter="" />
+				<field type="text" label="MOD_BUTTON_TEXT" name="button_text" description="MOD_BUTTON_TEXT_DESCRIPTION" default="Accept" class="" size="30" maxlength="30" filter="" />
 				<field type="color" label="MOD_POPUP_COLOR" name="popup_color" description="MOD_POPUP_COLOR_DESCRIPTION" default="#000000" />
-				<field type="text" label="MOD_COOKIE_NAME" name="cookie_name" description="MOD_COOKIE_NAME_DESCRIPTION" default="" class="" size="25" maxlength="25" filter="" />
+				<field type="text" label="MOD_COOKIE_NAME" name="cookie_name" description="MOD_COOKIE_NAME_DESCRIPTION" default="" class="" size="45" maxlength="45" filter="" />
 				<field type="text" label="MOD_COOKIE_POLICY_LINK" name="cookie_policy_link" description="MOD_COOKIE_POLICY_LINK_DESCRIPTION" default="/cookie_policy" class="" size="30" maxlength="30" filter="" />
-				<field type="radio" 
+				<field type="text" label="MOD_COOKIES_EXPIRES_DAYS" name="cookies_expires_days" description="MOD_COOKIES_EXPIRES_DAYS_DESCRIPTION" default="30" class="" size="4" maxlength="4" filter="" />
+			</fieldset>
+						<fieldset name="options" label="MOD_OPTIONS" description="MOD_OPTIONS_FIELDSET_DESCRIPTION">
+			<field type="radio" 
 				label="MOD_GA_ENABLE" 
 				name="GA_enable" 
 				description="MOD_GA_ENABLE_DESCRIPTION"
@@ -86,7 +91,8 @@
 					<option value="1">JYES</option>
 					<option value="0">JNO</option>
 				</field>
-				<field type="text" label="MOD_GOOGLE_AN_COD" name="google_an_cod" description="MOD_GOOGLE_AN_COD_DESCRIPTION" default="" class="" size="30" maxlength="30" filter="" />
+				<field type="text" label="MOD_GOOGLE_AN_COD" name="google_an_cod" description="MOD_GOOGLE_AN_COD_DESCRIPTION" default="" class="" size="30" maxlength="30" filter="" />			
+				
 				<field type="radio" label="MOD_FB_PIXEL_ENABLE" name="fb_pixel_enable" description="MOD_FB_PIXEL_ENABLE_DESCRIPTION"
 					class="btn-group btn-group-yesno"
 					default="0"
@@ -97,7 +103,6 @@
 					<option value="0">JNO</option>
 				</field>
 				<field type="text" label="MOD_FB_PIXEL_CODE" name="fb_pixel_code" description="MOD_FB_PIXEL_CODE_DESCRIPTION" default="" class="" size="30" maxlength="30" filter="" />
-				<field type="text" label="MOD_COOKIES_EXPIRES_DAYS" name="cookies_expires_days" description="MOD_COOKIES_EXPIRES_DAYS_DESCRIPTION" default="30" class="" size="4" maxlength="4" filter="" />
 			</fieldset>
 		</fields>
 
